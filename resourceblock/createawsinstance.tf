@@ -1,4 +1,4 @@
 resource "aws_instance" "test" {
-  ami           = "https://github.com/Srilakshmi912/learn-terraform.git"
+  ami           = "ami-05f020f5935e52dc4"
   instance_type = "t2.micro"
 }
