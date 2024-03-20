@@ -1,8 +1,8 @@
 variable "test" {
-  value = 10
+  default = 10
 }
 variable "list" {
-  value = "[1,2,3]"
+  default = "[1,2,3]"
 }
 variable "map" {
    default={
@@ -17,10 +17,10 @@ output "print" {
 
 }
 output "print_list" {
-  value = "list[1]"
+  value =var.list
 }
 
 output "print_map" {
-  value = "map[x]"
+  value = var.map[x]
   //value = "map[y]"
 }
