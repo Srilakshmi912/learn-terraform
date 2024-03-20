@@ -17,10 +17,10 @@ output "print" {
 
 }
 output "print_list" {
-  value =var.list
+  value =var.list[1]
 }
 
 output "print_map" {
-  value = var.map[x]
+  value = var.map["x"]
   //value = "map[y]"
 }
