@@ -2,7 +2,7 @@ variable "test" {
   default = 10
 }
 variable "list" {
-  default = "[1,2,3]"
+  default = [1,2,3]
 }
 variable "map" {
    default={
