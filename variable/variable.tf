@@ -1,3 +1,4 @@
+//variable block is used to define values
 variable "test" {
   default = 10
 }
