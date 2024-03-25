@@ -25,3 +25,5 @@ output "print_map" {
   value = var.map["x"]
   //value = "map[y]"
 }
+
+//3 types of variables available in terraform String (double quotes),number(no quotes),boolean
